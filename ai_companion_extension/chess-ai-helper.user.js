@@ -74,7 +74,10 @@
     if (boardEl.classList.contains('flipped')) return 'b';
     return 'w';
   }
-
+  function getUserColor(boardEl) {
+    if (boardEl.classList.contains('flipped')) return 'b';
+    return 'w';
+  }
   function getCurrentPly(boardEl) {
     const gameObj = boardEl.game || (document.querySelector('wc-chess-board')?.game) || (document.querySelector('chess-board')?.game);
     if (gameObj && typeof gameObj.getPly === 'function') {
