@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      4.0
 // @description  Real-time Stockfish 16 & Gemini AI Winning Move Arrows directly on Chess.com!
-// @author       Antigravity AI
+// @author       Shivamshu Roy
 // @match        https://www.chess.com/*
 // @grant        none
 // ==UserScript==
