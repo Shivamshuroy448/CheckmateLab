@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      3.0
 // @description  Automatic Stockfish 16 NNUE Live Overlay directly on Chess.com!
-// @author       Antigravity AI
+// @author       Shivamshu Roy
 // @match        https://www.chess.com/*
 // @match        https://www.chess.com/play/*
 // @match        https://www.chess.com/game/*
