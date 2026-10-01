@@ -18,3 +18,4 @@ popup/
 engine/
 manifest.json
 chess-ai-helper.user.js
+.vercel
