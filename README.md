@@ -1,6 +1,6 @@
 # ♟️ CheckmateLab — Stockfish 16 Engine
 
-> **Live Demo**: (https://checkmatelab.vercel.app/)(https://checkmatelab.vercel.app/))
+> **Live Demo**: https://checkmatelab.vercel.app/
 
 **CheckmateLab** is an enterprise-grade, real-time chess assistant and tactical evaluation dashboard powered by **Stockfish 16 NNUE**. Designed for live game analysis, mid-game position reconstruction, daily tactical training, game reviews, and global leaderboard progression.
 
