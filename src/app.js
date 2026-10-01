@@ -663,6 +663,26 @@ class ChessApp {
       }
     });
 
+    const btnGuestLogin = document.getElementById('btn-guest-login');
+    const inputGuestName = document.getElementById('input-guest-name');
+    const btnQuickGuest = document.getElementById('btn-quick-guest');
+
+    btnGuestLogin?.addEventListener('click', () => {
+      const name = inputGuestName?.value.trim() || 'Grandmaster';
+      this.loginWithGoogleUser(name, `${name.toLowerCase().replace(/\s+/g, '_')}@checkmatelab.local`, '', '🇮🇳');
+    });
+
+    inputGuestName?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const name = inputGuestName.value.trim() || 'Grandmaster';
+        this.loginWithGoogleUser(name, `${name.toLowerCase().replace(/\s+/g, '_')}@checkmatelab.local`, '', '🇮🇳');
+      }
+    });
+
+    btnQuickGuest?.addEventListener('click', () => {
+      this.loginWithGoogleUser('Guest Grandmaster', 'guest@checkmatelab.local', '', '🇮🇳');
+    });
+
     btnOpenLogin?.addEventListener('click', () => {
       modalLogin?.classList.remove('hidden');
 
