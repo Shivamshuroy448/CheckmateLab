@@ -27,7 +27,7 @@ class ChessApp {
 
     // User session & win tracker state
     this.currentUser = null;
-    this.googleClientId = '658722838654-ie4ffiu8452lfk56gv28ogl8jpvt7a0i.apps.googleusercontent.com';
+    this.googleClientId = '150427967272-7o2g1p5ovmtujq94117il2vtnj4nng5j.apps.googleusercontent.com';
 
     // Global Leaderboard Mock Master Database
     this.globalLeaderboard = [
